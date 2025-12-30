@@ -1,0 +1,12 @@
+html,body{
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-image: url("/bg2.jpg");
+  background-repeat: no-repeat; /* Prevents the image from tiling */
+  background-size: cover;      /* Scales the image to cover the entire page */
+  background-attachment: fixed;
+}
+#drawingBoard {
+    border: 2px solid black;
+}
